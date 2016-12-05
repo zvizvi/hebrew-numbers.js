@@ -1,0 +1,15 @@
+{
+  "name": "hebrew-numbers.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hebrew-numbers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browserify": "browserify hebrew-numbers.js -o index.js"
+  },
+  "author": "zvizvi",
+  "license": "",
+  "dependencies": {
+    "browserify": "^13.1.1"
+  }
+}
