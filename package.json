@@ -1,15 +1,26 @@
 {
-  "name": "hebrew-numbers.js",
-  "version": "1.0.0",
-  "description": "",
-  "main": "hebrew-numbers.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "browserify": "browserify hebrew-numbers.js -o index.js"
-  },
-  "author": "zvizvi",
-  "license": "",
-  "dependencies": {
-    "browserify": "^13.1.1"
-  }
+	"name": "hebrew-numbers.js",
+	"version": "1.0.0",
+	"description": "",
+	"main": "hebrew-numbers.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		// "prestart": "npm install",
+		// "start": "browserify hebrew-numbers.js -o index.js",
+		"browserify": "browserify hebrew-numbers.js -o index.js"
+	},
+	"author": "zvizvi",
+	"license": "ISC",
+	"dependencies": {
+		"browserify": "^13.1.1"
+	},
+	"devDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zvizvi/hebrew-numbers.js.git"
+	},
+	"bugs": {
+		"url": "https://github.com/zvizvi/hebrew-numbers.js/issues"
+	},
+	"homepage": "https://github.com/zvizvi/hebrew-numbers.js#readme"
 }
